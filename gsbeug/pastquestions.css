@@ -8,39 +8,34 @@ body{
 
 html{
   scroll-behavior: smooth;
+  font-size: 16px;
 }
 
 #container{
   display: flex;
-  flex-direction: row;
 }
-.cont{
-  position: fixed;
-  width: 22%;
-  height: 100vh;
-}
+
 
 #section-1{
   background-color: #ffffff;
-  display: grid;
-  grid-template-columns: repeat(1,1fr);
-  text-align: center;
+  display: flex;
+  flex-direction: column;
   padding: 10px 1%;
-  width: 23%;
+  width: 18.5%;
   overflow-y: hidden;
   border-radius: 0px 20px 20px 0px;
   border-right:1px solid rgba(0, 0, 0, 0.288);
 }
 
 .section-1-first-div{
+flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: left;
+  justify-content: space-evenly;
 }
 
 .section-1-first-div h3{
-  font-size: 16px;
-  margin-top: 10px;
+  font-size: 1.2rem;
   margin-bottom: 0;
   line-height:12.1px;
   font-weight:600px;
@@ -51,26 +46,24 @@ html{
 }
 
 .menu{
+padding: 2px;
 font-family: 'Lunasima';
-  font-size: 18px;
+  font-size: 1.3rem;
   font-weight: normal;
   text-align: center;
   width: 100%;
-  margin-top: 20px;
-  margin-bottom: 5px;
   border-radius: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
   box-shadow: 2px 2px 2px 1px rgba(99, 95, 95, 0.315);
   background-color:#ffd966;
-  height: 29px;
   cursor:default;
 }
 
 .section-1-first-div img{
-  height: 65px;
-  width: 65px;
+  height: 4rem;
+  width: 4rem;
   margin-left: 2%;
 }
 
@@ -78,73 +71,78 @@ font-family: 'Lunasima';
   border-radius: 20px;
   background-color: #D9E1FC54;
   height: fit-content;
-  margin-top: 15px;
+  flex: 1;
 }
 
 .section-1-second-div ul,li,a{
   text-decoration: none;
   list-style-type: none;
+ 
 }
+
 
 .section-1-second-div ul{
 text-align: left;
 padding: 0px 7%;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+flex: 1;
 }
+
+
 
 .section-1-second-div a{
-text-align: left;
 color: #0e207a;
-width: 100%;
 }
 
+
 .section-1-second-div li,a{
-font-weight: 500px;
-line-height: 18.94px;
-padding: 2%;
-font-size: 17px;
+line-height: 1.1rem;
+padding: 3%;
+font-size: 1.2rem;
 font-family: 'Inter';
 font-weight: 400;
-height: fit-content;
 overflow: hidden;
 }
 
-
 .section-1-second-div li a i{
-box-shadow: 2px 2px 2px solid red;
 margin-right: 4%;
+font-size:15px;
+font-weight: 600;
 }
 
-.section-1-second-div img{
-width: 18px;
-height: 15px;
-}
 
 #id{
-border: 1px solid #fdba00;
-border-radius: 20px;
-padding: 5px 5% 7px 7%;
+border: 1px solid #fdba00;  border-radius: 20px;
+padding: 7px 5% 7px 7%;
 color: #ffbb00;
 display: flex;
-gap: 7px;
+justify-content: flex-start;
+align-items: center;
+flex: 1;
+}
+
+#id i{
+margin-right: 4%;
+font-size:15px;
+font-weight: 600;
 }
 
 
 .com{
-font-size: 18px;
 font-family: 'Lunasima';
-font-weight: normal;
-text-align: center;
-width: 100%;
-margin-top: 20px;
-margin-bottom: 5px;
-border-radius: 20px;
-display: flex;
-justify-content: center;
-align-items: center;
-box-shadow: 2px 2px 2px 1px rgba(99, 95, 95, 0.315);
-background-color:#ffd966;
-height: 29px;
-cursor:default;
+  font-size: 1.3rem;
+  font-weight: normal;
+  text-align: center;
+  width: 100%;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 2px 2px 1px rgba(99, 95, 95, 0.315);
+  background-color:#ffd966;
+  cursor:default;
 }
 
 
@@ -152,7 +150,7 @@ cursor:default;
 border-radius: 20px;
 background-color: #D9E1FC54;
 height: fit-content;
-margin-top: 5px;
+flex: 1;
 }
 
 .section-1-third-div ul,li{
@@ -175,16 +173,16 @@ font-family: 'Inter';
 
 .section-1-third-div li i{
 margin-right: 4%;
+font-size: 18px;
 }
 
 
 .section-1-third-div input{
 border: none;
   border-radius: 20px;
-  width: 40%;
+  width: 70%;
   border: 2px solid #ffd966;
-  padding: 5px 3%;
-  height: 25px;
+  padding: 5px 3% 0 3%;
   font-family: 'Inter';
   background-color: #F3F5FE;
   font-family: 500;
@@ -193,13 +191,17 @@ border: none;
 
 
 
+
+
+
 .section-2-subsection-first-div .head{
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   justify-content: flex-start;
   position: relative;
-  margin-top: 10px;
  
 }
 
@@ -244,9 +246,9 @@ input:focus{
 
 
 #section-2{
-    background-color: #d9e1fc81;
+    background-color: #D9E1FC54;
     height: 100Vh;
-    width: 80%;
+    width: 83.5%;
     padding: 10px 30px;
     overflow-y: scroll;
     scroll-behavior: smooth;
@@ -277,8 +279,9 @@ input:focus{
 
 .send{
   display: flex;
-  justify-content: flex-end;
-  margin-left: 0;
+  justify-content: center;
+  align-items: center;
+  margin-left: 4%;
 }
 
 .Feedback{
@@ -408,6 +411,7 @@ h3.Feedback{
     font-size: 16px;
     border-radius: 15px;
     padding: 7px 15px;
+    font-family: 'Inter';
 }
 
 #section-2-subsection-level100-div{
