@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lunasima:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script
+      src="https://kit.fontawesome.com/8fb550408b.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="lecturers.css">
+    <script src="js/lecturers.js"></script>
+
+    <title>Document</title>
+</head>
+<body>
+    <section id="container">
+
+        <!--NAVIGATION SECTION OF THE WEBSITE-->
+        <section id="section-1">
+          <div class="section-1-first-div">
+            <img
+              src="images/homepage/gsbe_ug_logo-removebg-preview.png"
+              alt="gsbe_ug_logo"
+            />
+            <h3>PreWorks - GSBE UG</h3>
+            <h2 class="menu">MENU</h2>
+          </div>
+  
+          <div class="section-1-second-div">
+            <ul>
+              <li><a href="../index.html"><i class="fa-solid fa-house" style="color: #FFD43B;"></i>Home</a></li>
+              <li><a href="coursematerials.html"><i class="fa-solid fa-book"></i>Course Materials</a></li>
+              <li><a href="pastquestions.html"><i class="fa-solid fa-bookmark"></i>Past Questions</a></li>
+              <li><a href="scholarship.html"><i class="fa-solid fa-graduation-cap"></i>Scholarships</a></li>
+              <li><a href="researcharticles.html"><i class="fa-solid fa-magnifying-glass"></i>Articles</a></li>
+              <li><a href="lecturers.html"  id="id"><i class="fa-solid fa-person-chalkboard"></i>Lecturers</a></li>
+            </ul>
+          </div>
+  <h2 class="com">Communities</h2>
+  
+          <div class="section-1-third-div">
+            <ul>
+              <li>
+                <input type="search" placeholder="......." />
+              </li>
+              <li><i class="fa-solid fa-circle" style="color: #f53d00;"></i>CodeRun</li>
+              <li><i class="fa-solid fa-circle" style="color: #1df500;"></i>LinkedIn</li>
+              <li><i class="fa-solid fa-circle" style="color: #0052f5;"></i>Developers Club</li>
+            </ul>
+          </div>
+        </section>
+        <!--MAIN SECTION OF THE WEBSITE-->
+        <section id="section-2">
+  
+      <div class="section-2-subsection-first-div">
+        <div class="head">
+          <input type="search" onkeyup="searchMaterials1(),searchMaterials2(),searchMaterials3(),searchMaterials4()" placeholder="Search for materials..." id="searchBar"/>
+          <h4><i class="fa-regular fa-bell" style="color: #F9BA10;"></i></h4>
+          <span><i class="fa-solid fa-magnifying-glass"></i></span>
+          <div class="send">
+            <h3 class="Feedback">Send us Feedback</h3>
+          </div>
+        </div>
+    </div>
+ 
+      <div class="section-2-subsection-second-div">
+         <h1>Lecturer Profile</h1>
+         <div id="levels">
+         <div onclick="filter1()" id="level100">Prof. Samuel Kojo Kwofie</div>
+         <div onclick="filter2()" id="level200">Ing. Prof. Elsie Effah Kaufmann</div>
+         <div onclick="filter3()" id="level300">Prof. Elvis Kwason Tiburu</div>
+         <div onclick="filter4()" id="level400">Dr. Bernard Owusu Asimeng</div>
+         <div onclick="filter5()" id="level500">Dr. John Kwaku Kutor</div>
+         <div onclick="filter6()" id="level600">Dr. Kwabena Kan-Dapaah</div>
+         <div onclick="filter7()" id="level700">Dr. Claude Fiifi Hayford</div>
+         <div onclick="filter8()" id="level800">Dr. Srinivasan Balanpangu Shankar</div>
+         <div onclick="filter9()" id="level900">Prof. Anderson Mon</div>
+       </div>
+      </div>
+<!-- Prof Kwofie-->
+      <div id="section-2-subsection-level100-div">
+        <div class="Lecturer">
+            <div class="Lecturer_img">
+                <img src="images/homepage/design.jpg">
+            </div>
+            <div class="Lecturer_description">
+                <ol>
+                    <li>Professor Samuel Kojo Kwofie</li>
+                    <li>Position : HOD of Biomedical Engineering, University Of Ghana</li>
+                    <li>Email :<a href="mailto:skkwofie@ug.edu.gh" class="email"><i class="fa-solid fa-envelope" style="padding:0px;color: rgb(226, 13, 13);"></i>skkwofie@ug.edu.gh</a> </li>
+                    <li>LinkedIn :</li>
+                </ol>
+            </div>
+        </div>
+        <div class="Overview">
+            <p>Prof. Samuel Kojo Kwofie is the <b>Head of the Department of Biomedical Engineering at the University of Ghana</b>. He leads the department, shaping its strategic direction and enhancing the quality of education and research. His research intersects<b> biology, computer science, and engineering, focusing on bioinformatics, computational bioengineering, artificial intelligence, and drug discovery</b>. His work employs advanced computational techniques to address significant challenges in healthcare and medical research.</p>
+        <h3>Research Overview</h3>
+        <ol>
+            <li><b>Research Areas :</b>
+                <ul>
+                  <li>Bioinformatics</li> 
+                  <li>Computational Bioengineering</li>  
+                  <li>Artificial Intelligence</li> 
+                  <li>Drug Discovery</li> 
+                </ul>
+            </li>
+            <li><b>Current Research Focus</b>
+                <p>
+                    Prof. Kwofie’s current research involves using <b>computational tools to analyze biological data, applying advanced methods to solve complex medical problems, and developing AI algorithms for various biomedical applications</b>. He is also focused on accelerating <b>drug discovery</b> processes using these techniques.
+                <br>
+                Prof. Kwofie’s ongoing work includes the <b>application of computational methods to understand biological processes, enhance medical diagnostics, and develop new therapeutic agents</b>. His research leverages <b>bioinformatics and AI</b> to tackle complex problems in healthcare and drug development.
+                </p>
+            </li>
+            <li>
+                <b>Future Research Goals</b> 
+                <p>Prof. Kwofie aims to advance his research in <b>integrating AI</b> with biomedical applications further. Planned projects include developing more <b>sophisticated AI algorithms for medical diagnostics and continuing to explore innovative computational methods to expedite drug discovery</b>. His future research goals are to enhance the impact of these technologies in both academic and practical healthcare settings.</p>
+            </li>
+        </ol>
+<h3>Publications</h3>
+<ul>
+    <li>List of their significant paper/publications with links to download them and read them on PreWorks if available</li>
+    <li>e.g Title of paper,Journal name , year of publications</li>
+</ul>
+
+
+<h3>Awards and Recognition</h3>
+<ul>
+    <li>list any notable awards or grants with short descriptions</li>
+</ul>
+
+<h3>Research Collaborations</h3>
+<ul>
+    <li>Prof. Kwofie’s research involves interdisciplinary approaches, likely including collaborations with institutions specializing in bioinformatics, computational biology, and AI. Specific details on collaborations and institutions were not provided.</li>
+</ul>
+
+<h3>Student Engagement and Supervision</h3>
+<ul>
+    <li>Prof. Kwofie’s research likely involves supervision of undergraduate and graduate students, though specific details are not provided.</li>
+</ul>
+      </div>
+    </div>
+    <!-- Elsie Kaufmann-->
+          <div id="section-2-subsection-level200-div">
+            <div class="Lecturer">
+                <div class="Lecturer_img">
+                    <img src="images/homepage/design.jpg">
+                </div>
+                <div class="Lecturer_description">
+                    <ol>
+                        <li>Ing. Professor Elsie Effah Kaufmann</li>
+                        <li>Dean of SES and Patron of GSBE- UG</li>
+                        <li>Email :<a href="mailto:eeffahkaufmann@ug.edu.gh" class="email"><i class="fa-solid fa-envelope" style="padding:0px 10px;color: rgb(226, 13, 13);"></i>eeffahkaufmann@ug.edu.gh</a> </li>
+                        <li>LinkedIn :</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="Overview">
+                <p>Ing. Prof. Elsie Effah Kaufmann is a distinguished academic in Biomedical Engineering at the University of Ghana, serving as the <b>Dean of the School of Engineering Sciences and the Patron of the Ghana Society of Biomedical Engineers, University of Ghana Chapter (GSBE-UG)</b>. She has held pivotal roles, including the Former and First Head of the Department of Biomedical Engineering. Prof. Kaufmann is also the founder of the Elsie Effah Kaufmann Foundation and serves as the NSMQ Quiz Mistress, reflecting her broad contributions to both academia and society.</p>
+                <h3>Research Overview</h3>
+                <ol>
+                    <li><b>Research Areas :</b>
+                        <ul>
+                          <li>Engineering Design</li> 
+                          <li>Design of scaffolds for tissue engineering applications</li>  
+                          <li>Characterization of natural materials</li> 
+                          <li>Engineering Education</li> 
+                        </ul>
+                    </li>
+                    <li><b>Current Research Focus</b>
+                        <p>
+                            Prof. Kaufmann’s research includes engineering design, developing scaffolds for tissue engineering, and characterizing natural materials. She is also focused on advancing engineering education.
+                        <br>
+                        Prof. Kaufmann’s ongoing research involves innovative design approaches in biomedical engineering, including creating effective scaffolds for tissue engineering and exploring the properties of natural materials. Her work aims to advance both practical applications and educational practices within the field.
+                        </p>
+                    </li>
+                    <li>
+                        <b>Future Research Goals</b> 
+                        <p> Future research goals for Prof. Kaufmann include expanding her work on tissue engineering and engineering education, with plans to develop new methodologies and educational programs to address emerging challenges in biomedical engineering.</p>
+                    </li>
+                </ol>
+        <h3>Publications</h3>
+        <ul>
+            <li>List of their significant paper/publications with links to download them and read them on PreWorks if available</li>
+            <li>e.g Title of paper,Journal name , year of punlications</li>
+        </ul>
+        
+        
+        <h3>Awards and Recognition</h3>
+        <ul>
+            <li>list any notable awards or grants with short descriptions</li>
+        </ul>
+        
+        <h3>Research Collaborations</h3>
+        <ul>
+            <li>Prof. Kaufmann’s career involves collaborations related to engineering design and tissue engineering, but specific details on interdisciplinary or international partnerships were not provided.</li>
+        </ul>
+        
+        <h3>Student Engagement and Supervision</h3>
+        <ul>
+            <li>Prof. Kaufmann is actively involved in engineering education, likely including supervision of undergraduate and graduate students in biomedical engineering research.</li>
+        </ul>
+          </div>
+        </div>
+        <!-- Professor Elvis Kwason Tiburu-->
+              <div id="section-2-subsection-level300-div">
+                <div class="Lecturer">
+                    <div class="Lecturer_img">
+                        <img src="images/homepage/design.jpg">
+                    </div>
+                    <div class="Lecturer_description">
+                        <ol>
+                            <li>Professor Elvis Kwason Tiburu</li>
+                            <li>Associate Professor</li>
+                            <li><i class="fa-solid fa-envelope" style="padding:0px 10px;color: rgb(226, 13, 13);"></i>: <a href="mailto:etiburu@ug.edu.gh" class="email">etiburu@ug.edu.gh</a> </li>
+                            <li>LinkedIn :</li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="Overview">
+                    <p>Prof. Elvis Kwason Tiburu is a distinguished academic in Biomedical Engineering at the University of Ghana. His educational credentials include a BSc from Kumasi, an MSc/MPhil from Indiana, and a PhD from Miami, reflecting a robust blend of local and international expertise. His research spans several cutting-edge areas in biomedical science and engineering.</p>
+                    <h3>Research Overview</h3>
+                    <ol>
+                        <li><b>Research Areas :</b>
+                            <ul>
+                              <li>Structural Biology (NMR and EPR studies of macromolecules)</li> 
+                              <li>Nanomaterials for cancer treatments</li>  
+                              <li>Targeted Drug Delivery & Biopolymer Synthesis</li> 
+                              <li>Biological Interface materials for infectious disease prevention</li> 
+                            </ul>
+                        </li>
+                        <li><b>Current Research Focus</b>
+                            <p>
+                                Prof. Tiburu’s research involves advanced structural biology techniques, including NMR (Nuclear Magnetic Resonance) and EPR (Electron Paramagnetic Resonance), to study macromolecules. His work also focuses on developing nanomaterials for cancer therapy, targeted drug delivery systems, and biopolymer synthesis for preventing infectious diseases.
+                            <br>
+                            Prof. Tiburu’s ongoing research includes using NMR and EPR to gain insights into complex biological macromolecules and developing innovative nanomaterials and targeted drug delivery systems. His work also addresses the synthesis of biopolymers and biological interface materials to combat infectious diseases, aiming to advance both theoretical and practical aspects of biomedical science.
+                            </p>
+                        </li>
+                        <li>
+                            <b>Future Research Goals</b> 
+                            <p>Prof. Tiburu plans to further explore the application of nanomaterials in cancer treatment and enhance targeted drug delivery systems. Future research will also focus on advancing biopolymer synthesis techniques and developing new biological interface materials to address global health challenges.</p>
+                        </li>
+                    </ol>
+            <h3>Publications</h3>
+            <ul>
+                <li>List of their significant paper/publications with links to download them and read them on PreWorks if available</li>
+                <li>e.g Title of paper,Journal name , year of punlications</li>
+            </ul>
+            
+            
+            <h3>Awards and Recognition</h3>
+            <ul>
+                <li>list any notable awards or grants with short descriptions</li>
+            </ul>
+            
+            <h3>Research Collaborations</h3>
+            <ul>
+                <li>Prof. Tiburu’s research involves advanced techniques and materials science, potentially including interdisciplinary collaborations. Specific details on collaborations or institutions were not provided.</li>
+            </ul>
+            
+            <h3>Student Engagement and Supervision</h3>
+            <ul>
+                <li>Prof. Tiburu’s diverse research areas likely involve supervising undergraduate and graduate students in biomedical engineering research.</li>
+            </ul>
+              </div>
+            </div>
+
+    
+<!--Dr. Bernard Owusu Asimeng-->
+<div id="section-2-subsection-level400-div">
+    <div class="Lecturer">
+        <div class="Lecturer_img">
+            <img src="images/homepage/design.jpg">
+        </div>
+        <div class="Lecturer_description">
+            <ol>
+                <li>Dr. Bernard Owusu Asimeng</li>
+                <li>Senior Lecturer</li>
+                <li>Email :<a href="mailto:boasimeng@ug.edu.gh" class="email"><i class="fa-solid fa-envelope" style="padding:0px 10px;color: rgb(226, 13, 13);"></i>boasimeng@ug.edu.gh</a> </li>
+                <li>LinkedIn :</li>
+            </ol>
+        </div>
+    </div>
+    <div class="Overview">
+        <p>Dr. Bernard O. Asimeng is a Senior Lecturer in the Biomedical Engineering department at the University of Ghana. He holds a BSc, MSc, and PhD from Kumasi, which underscores his strong academic background. His research is centered on biomedical materials science, with a focus on biomaterials for implant coatings, water remediation, tissue scaffolds for tissue engineering, nanomaterials for cancer treatment, and targeted drug delivery.</p>
+    
+        <h3>Research Overview</h3>
+        <ol>
+            <li><b>Research Areas :</b>
+                <ul>
+                  <li>Biomaterials for implant coating</li> 
+                  <li>Water remediation</li>  
+                  <li>Design of tissue scaffolds for tissue engineering</li> 
+                  <li>Nanomaterials for cancer treatment and diagnostics</li> 
+                  <li>Targeted drug delivery</li> 
+                </ul>
+            </li>
+            <li><b>Current Research Focus</b>
+                <p>
+                    Dr. Asimeng is focused on developing advanced biomaterials for medical and environmental applications. His work includes designing tissue scaffolds for regenerative medicine, exploring nanomaterials for oncology, and improving targeted drug delivery systems.
+                <br>
+                Dr. Asimeng’s current research involves creating innovative biomaterials for implant coatings and addressing environmental issues through water remediation. He is also working on designing effective tissue scaffolds for tissue engineering and investigating the potential of nanomaterials in cancer treatment and diagnostics. Additionally, his research aims to enhance the precision of drug delivery systems.
+                </p>
+            </li>
+            <li>
+                <b>Future Research Goals</b> 
+                <p>Future research for Dr. Asimeng includes advancing biomaterial technologies for improved medical implants and water purification. He plans to continue developing sophisticated tissue scaffolds and exploring new applications of nanomaterials in cancer treatment and targeted drug delivery to address complex biomedical challenges.</p>
+            </li>
+        </ol>
+<h3>Publications</h3>
+<ul>
+    <li>List of their significant paper/publications with links to download them and read them on PreWorks if available</li>
+    <li>e.g Title of paper,Journal name , year of punlications</li>
+</ul>
+
+
+<h3>Awards and Recognition</h3>
+<ul>
+    <li>list any notable awards or grants with short descriptions</li>
+</ul>
+
+<h3>Research Collaborations</h3>
+<ul>
+    <li>Dr. Asimeng’s research likely involves collaborations in materials science, biomedical engineering, and environmental science. Specific details on collaborations or institutions were not provided.</li>
+</ul>
+
+<h3>Student Engagement and Supervision</h3>
+<ul>
+    <li>Dr. Asimeng’s research areas involve the supervision of undergraduate and graduate students, particularly in projects related to biomaterials, tissue engineering, and nanotechnology.</li>
+</ul>
+  </div>
+</div>
+
+<!-- Dr. John Kwaku Kutor-->
+<div id="section-2-subsection-level500-div">
+    <div class="Lecturer">
+        <div class="Lecturer_img">
+            <img src="images/homepage/design.jpg">
+        </div>
+        <div class="Lecturer_description">
+            <ol>
+                <li>Dr. John Kwaku Kutor</li>
+                <li>Senior Lecturer</li>
+                <li>Email :<a href="mailto:jkutor@ug.edu.gh" class="email"><i class="fa-solid fa-envelope" style="padding:0px 10px;color: rgb(226, 13, 13);"></i>jkutor@ug.edu.gh</a> </li>
+                <li>LinkedIn :</li>
+            </ol>
+        </div>
+    </div>
+    <div class="Overview">
+        <p>Dr. John Kwaku Kutor is a Senior Lecturer in the Department of Biomedical Engineering at the University of Ghana. He has a BSc and MSc from Cape Coast and a PhD from Zhejiang University. His research focuses on mathematical modeling of physiological systems and bioinstrumentation, applying quantitative methods to advance understanding in biomedical engineering.</p>
+        <h3>Research Overview</h3>
+        <ol>
+            <li><b>Research Areas :</b>
+                <ul>
+                  <li>Mathematical modeling of physiological systems</li> 
+                  <li>Bioinstrumentation</li> 
+                </ul>
+            </li>
+            <li><b>Current Research Focus</b>
+                <p>
+                    Dr. Kutor specializes in applying mathematical modeling to understand complex physiological processes. His research in bioinstrumentation involves developing advanced tools and techniques for biomedical applications.
+                <br>
+                Dr. Kutor’s current research involves the mathematical modeling of physiological systems to gain insights into biological processes. He is also focused on advancing bioinstrumentation, which contributes to the development of sophisticated biomedical tools and technologies.
+                </p>
+            </li>
+            <li>
+                <b>Future Research Goals</b> 
+                <p>Dr. Kutor plans to further explore the application of mathematical models in understanding physiological systems and developing innovative bioinstrumentation technologies. Future research aims to enhance the precision and capabilities of biomedical instruments and improve the quantitative analysis of complex biological processes.</p>
+            </li>
+        </ol>
+<h3>Publications</h3>
+<ul>
+    <li>List of their significant paper/publications with links to download them and read them on PreWorks if available</li>
+    <li>e.g Title of paper,Journal name , year of punlications</li>
+</ul>
+
+
+<h3>Awards and Recognition</h3>
+<ul>
+    <li>list any notable awards or grants with short descriptions</li>
+</ul>
+
+<h3>Research Collaborations</h3>
+<ul>
+    <li>Dr. Kutor’s research may involve collaborations in fields related to mathematical modeling and bioinstrumentation. Specific details on interdisciplinary or international partnerships were not provided.</li>
+</ul>
+
+<h3>Student Engagement and Supervision</h3>
+<ul>
+    <li>Dr. Kutor’s expertise in mathematical modeling and bioinstrumentation likely involves supervising undergraduate and graduate students, particularly in research projects related to these areas.</li>
+</ul>
+  </div>
+</div>
+
+<!--Dr. Kwabena Kan-Dapaah-->
+<div id="section-2-subsection-level600-div">
+    <div class="Lecturer">
+        <div class="Lecturer_img">
+            <img src="images/homepage/design.jpg">
+        </div>
+        <div class="Lecturer_description">
+            <ol>
+                <li>Dr. Kwabena Kan-Dapaah</li>
+                <li>Senior Lecturer</li>
+                <li>Email :<a href="mailto:kkan-dapaah@ug.edu.gh" class="email"><i class="fa-solid fa-envelope" style="padding:0px 10px;color: rgb(226, 13, 13);"></i>kkan-dapaah@ug.edu.gh</a> </li>
+                <li>LinkedIn :</li>
+            </ol>
+        </div>
+    </div>
+    <div class="Overview">
+        <p>Dr. Kwabena Kan Dapaah is a distinguished researcher and lecturer in Biomedical Engineering at the University of Ghana. His work integrates materials science with biomedical applications, focusing on both experimental and computational characterization of materials. Dr. Dapaah specializes in polymeric nanocomposites, biomechanics, and the design of implantable devices for cancer treatment, contributing significantly to advanced medical technologies.</p>
+        <h3>Research Overview</h3>
+        <ol>
+            <li><b>Research Areas :</b>
+                <ul>
+                  <li>Experimental and computational characterization of materials for biomedical applications</li> 
+                  <li>Polymeric nanocomposites</li>  
+                  <li>Biomechanics</li> 
+                  <li>Design of implantable devices for cancer treatment</li> 
+                </ul>
+            </li>
+            <li><b>Current Research Focus</b>
+                <p>
+                    Dr. Dapaah’s research involves optimizing material properties for biomedical use through both experimental and computational methods. He focuses on developing polymeric nanocomposites with advanced functionalities and understanding the mechanical aspects of biological systems for medical device development.
+                <br>
+                Dr. Dapaah’s ongoing research includes the experimental and computational study of materials for biomedical applications, with an emphasis on polymeric nanocomposites. His work in biomechanics aims to improve the design of medical devices, and his research on implantable devices for cancer treatment reflects his commitment to creating practical medical solutions.
+                </p>
+            </li>
+            <li>
+                <b>Future Research Goals</b> 
+                <p> Dr. Dapaah plans to advance his research on polymeric nanocomposites and biomechanics, with a focus on developing new materials and technologies for medical applications. Future projects will include enhancing the functionality of implantable devices and exploring new methods to optimize material properties for biomedical use.</p>
+            </li>
+        </ol>
+<h3>Publications</h3>
+<ul>
+    <li>List of their significant paper/publications with links to download them and read them on PreWorks if available</li>
+    <li>e.g Title of paper,Journal name , year of punlications</li>
+</ul>
+
+
+<h3>Awards and Recognition</h3>
+<ul>
+    <li>list any notable awards or grants with short descriptions</li>
+</ul>
+
+<h3>Research Collaborations</h3>
+<ul>
+    <li>Dr. Dapaah’s research likely includes collaborations in materials science, biomechanics, and medical device development. Specific details on interdisciplinary or international partnerships were not provided.</li>
+</ul>
+
+<h3>Student Engagement and Supervision</h3>
+<ul>
+    <li> Dr. Dapaah’s research areas include supervising undergraduate and graduate students, particularly in projects related to materials science, biomechanics, and medical device design.</li>
+</ul>
+  </div>
+</div>
+
+<!-- Dr. Claude Fiifi Hayford-->
+<div id="section-2-subsection-level700-div">
+    <div class="Lecturer">
+        <div class="Lecturer_img">
+            <img src="images/homepage/design.jpg">
+        </div>
+        <div class="Lecturer_description">
+            <ol>
+                <li>Dr. Claude Fiifi Hayford</li>
+                <li>Senior Lecturer</li>
+                <li>Email :<a href="mailto:CHayford@ug.edu.gh" class="email"><i class="fa-solid fa-envelope" style="padding:0px 10px;color: rgb(226, 13, 13);"></i>CHayford@ug.edu.gh</a> </li>
+                <li>LinkedIn :</li>
+            </ol>
+        </div>
+    </div>
+    <div class="Overview">
+        <p>Dr. Claude Fiifi Hayford is a lecturer and researcher at the University of Ghana and the Ghana Society of Biomedical Engineers. With a BSc from the University of Ghana, an MSc from the Norwegian University of Science and Technology, and a PhD from the University of Sheffield, Dr. Hayford has a diverse international educational background. His research focuses on bioinformatics, biomechanics, computational tools in healthcare delivery, and biomechanical analysis of human movement.</p>
+        <h3>Research Overview</h3>
+        <ol>
+            <li><b>Research Areas :</b>
+                <ul>
+                  <li>Bioinformatics</li> 
+                  <li>Biomechanics</li>  
+                </ul>
+            </li>
+            <li><b>Current Research Focus</b>
+                <p>
+                  <ul>
+                    <li>Computational Tools in Healthcare Delivery: Developing or implementing software and algorithms to improve aspects of healthcare such as diagnosis, treatment planning, and system optimization.</li>
+                    <li>Biomechanical Analysis of Human Movement: Studying movement in pathological, occupational, and everyday contexts to enhance applications in rehabilitation, ergonomics, sports science, and assistive technologies.</li>
+                    <li>Dr. Hayford's research involves leveraging bioinformatics to develop algorithms and statistical methods for interpreting complex biological data. He also focuses on biomechanics to understand how mechanical principles apply to biological systems, particularly human movement. His work aims to improve healthcare delivery through computational tools and analyze human movement to develop better rehabilitation and assistive technologies.</li>
+                </ul>
+
+                </p>
+            </li>
+            <li>
+                <b>Future Research Goals</b> 
+                <p>Dr. Hayford plans to advance his research on computational tools to further enhance healthcare delivery and expand the biomechanical analysis of human movement. Future projects will include developing new algorithms for health system optimization and exploring applications in rehabilitation and ergonomics.</p>
+            </li>
+        </ol>
+<h3>Publications</h3>
+<ul>
+    <li>List of their significant paper/publications with links to download them and read them on PreWorks if available</li>
+    <li>e.g Title of paper,Journal name , year of punlications</li>
+</ul>
+
+
+<h3>Awards and Recognition</h3>
+<ul>
+    <li>list any notable awards or grants with short descriptions</li>
+</ul>
+
+<h3>Research Collaborations</h3>
+<ul>
+    <li>Dr. Hayford’s research likely involves collaborations across bioinformatics and biomechanics, possibly including interdisciplinary or international partnerships. Specific details on collaborations were not provided.</li>
+</ul>
+
+<h3>Student Engagement and Supervision</h3>
+<ul>
+    <li>Dr. Hayford’s expertise in bioinformatics and biomechanics includes supervising students, particularly in projects related to computational tools and human movement analysis.</li>
+</ul>
+  </div>
+</div>
+
+<!-- Dr. Srinivasan Balanpangu Shankar-->
+<div id="section-2-subsection-level800-div">
+    <div class="Lecturer">
+        <div class="Lecturer_img">
+            <img src="images/homepage/design.jpg">
+        </div>
+        <div class="Lecturer_description">
+            <ol>
+                <li>Dr. Srinivasan Balanpangu Shankar</li>
+                <li>Assistant Lecturer</li>
+                <li>Email :<a href="mailto:srinivan_bs85@yahoo.com" class="email"><i class="fa-solid fa-envelope" style="padding:0px 10px;color: rgb(226, 13, 13);"></i>srinivasan_bs85@yahoo.com</a> </li>
+                <li>LinkedIn :</li>
+            </ol>
+        </div>
+    </div>
+    <div class="Overview">
+        <p>Dr. Srinivasan B. Shankar is a lecturer and researcher at the University of Ghana and a member of the Ghana Society of Biomedical Engineers. His research spans multiple areas in biomedical engineering, including bioinstrumentation, biosensor design using electrochemistry techniques, and plant-based drug design. His work integrates traditional medicinal knowledge with cutting-edge biomedical technology.</p>
+        <h3>Research Overview</h3>
+        <ol>
+            <li><b>Research Areas :</b>
+                <ul>
+                  <li>Bioinstrumentation</li> 
+                  <li>Design of biosensors using electrochemistry techniques</li>  
+                  <li>Characterization of natural materials</li> 
+                  <li>Plant-based drug design</li> 
+                </ul>
+            </li>
+            <li><b>Current Research Focus</b>
+                <p>
+                    Dr. Shankar focuses on the development of biomedical devices and biosensors, utilizing electrochemistry techniques to create diagnostic and monitoring tools. His work in plant-based drug design explores the medicinal properties of plants to develop new pharmaceutical treatments.
+                <br>
+                Dr. Shankar is working on designing and improving biosensors that use electrochemistry to detect biological or chemical substances. Additionally, he is investigating plant-derived compounds for drug development, aiming to create innovative therapies by integrating traditional medicine with modern biomedical technology.
+                </p>
+            </li>
+            <li>
+                <b>Future Research Goals</b> 
+                <p> Dr. Shankar plans to expand his work on biosensor development and explore new applications in diagnostics and environmental monitoring. His future research will also focus on advancing plant-based drug design, potentially discovering new treatments derived from medicinal plants.</p>
+            </li>
+        </ol>
+<h3>Publications</h3>
+<ul>
+    <li>List of their significant paper/publications with links to download them and read them on PreWorks if available</li>
+    <li>e.g Title of paper,Journal name , year of punlications</li>
+</ul>
+
+
+<h3>Awards and Recognition</h3>
+<ul>
+    <li>list any notable awards or grants with short descriptions</li>
+</ul>
+
+<h3>Research Collaborations</h3>
+<ul>
+    <li>Dr. Shankar’s research likely involves interdisciplinary collaborations, particularly in the fields of bioinstrumentation, biosensor development, and pharmacognosy. Specific details on partnerships were not provided.</li>
+</ul>
+
+<h3>Student Engagement and Supervision</h3>
+<ul>
+    <li>Dr. Shankar supervises students in areas such as bioinstrumentation and biosensor design, offering opportunities for them to engage in innovative biomedical engineering projects.</li>
+</ul>
+  </div>
+</div>
+
+<!-- Professor Anderson Mon-->
+<div id="section-2-subsection-level900-div">
+    <div class="Lecturer">
+        <div class="Lecturer_img">
+            <img src="images/homepage/design.jpg">
+        </div>
+        <div class="Lecturer_description">
+            <ol>
+                <li>Professor Anderson Mon</li>
+                <li>Associate Lecturer</li>
+                <li>Email :<a href="mailto:amon@ug.edu.gh"  class="email"><i class="fa-solid fa-envelope" style="padding:0px 10px;color: rgb(226, 13, 13);"></i>amon@ug.edu.gh</a> </li>
+                <li>LinkedIn :</li>
+            </ol>
+        </div>
+    </div>
+    <div class="Overview">
+        <p>Prof. Anderson Mon is a lecturer and researcher at the University of Ghana, affiliated with the Ghana Society of Biomedical Engineers. His interdisciplinary research combines mathematics, physics, and biology to advance biomedical engineering, focusing on areas such as mathematical modeling of biological processes, ultrasound elastography, and bioinstrumentation.</p>
+        <h3>Research Overview</h3>
+        <ol>
+            <li><b>Research Areas :</b>
+                <ul>
+                  <li>Mathematical modeling of human growth and wound healing</li> 
+                  <li>Ultrasound elastography for age determination</li>  
+                  <li>Assessment of physical effects of body fat on MRI-measured brain tissue volumes</li> 
+                  <li>Bioinstrumentation</li> 
+                </ul>
+            </li>
+            <li><b>Current Research Focus</b>
+                <p>
+                    Prof. Mon's research includes developing mathematical models to better understand biological processes like human growth and wound healing, which could have applications in regenerative medicine. He is also working on ultrasound elastography to determine biological age and studying the relationship between body fat and brain tissue volumes using MRI.
+                <br>
+                Prof. Mon’s ongoing research involves using mathematical techniques to model human growth and wound healing, exploring ultrasound elastography for biological age determination, and assessing how body composition affects brain structure. His work in bioinstrumentation contributes to improving diagnostic and medical devices.
+                </p>
+            </li>
+            <li>
+                <b>Future Research Goals</b> 
+                <p>Prof. Mon plans to continue advancing his work on mathematical modeling and ultrasound elastography, with an aim to develop new medical tools for age estimation and regenerative therapies. He also seeks to expand his research on body fat’s impact on brain health.</p>
+            </li>
+        </ol>
+<h3>Publications</h3>
+<ul>
+    <li>List of their significant paper/publications with links to download them and read them on PreWorks if available</li>
+    <li>e.g Title of paper,Journal name , year of punlications</li>
+</ul>
+
+
+<h3>Awards and Recognition</h3>
+<ul>
+    <li>list any notable awards or grants with short descriptions</li>
+</ul>
+
+<h3>Research Collaborations</h3>
+<ul>
+    <li>Prof. Mon’s research is likely interdisciplinary, involving collaborations in mathematical modeling, bioinstrumentation, and medical imaging. Specific details on partnerships were not provided.</li>
+</ul>
+
+<h3>Student Engagement and Supervision</h3>
+<ul>
+    <li>Prof. Mon supervises students, particularly in areas of mathematical modeling and bioinstrumentation. His projects offer students opportunities to contribute to innovative research in biomedical engineering.</li>
+</ul>
+  </div>
+</div>
+
+        </section>
+    </section>
+    
+</body>
+</html>
